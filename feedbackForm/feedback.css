@@ -1,0 +1,114 @@
+* {
+    font-family: Arial, sans-serif;
+    /* background-color: #b90f2e; */
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+   
+}
+
+
+.container {
+    max-width: 25rem;
+    margin: 50px auto;
+    background-color: rgb(250, 117, 139);
+    padding: 20px;
+    /* background: rgb(224, 37, 100); */
+    border-radius: 10px;
+    /* border: 1px solid black;
+     */
+     border: 1px solid rgb(225, 225, 225);
+    /* box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1); */
+    
+    box-shadow: 11px 11px  40px rgb(250, 51, 114);
+}
+
+.container:hover{
+    /* box-shadow: 7px 10px  7px rgb(203, 202, 202); */
+    /* border: 1px solid white; */
+}
+h1 {
+    text-align: center;
+    color: #454242;
+}
+h1:hover{
+    color: #656464;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    /* display: block; */
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+#name,#email{
+    margin-left: 40px;
+}
+#name,#email,#msg,#suggestions{
+    width: 20em;
+    border: 1px solid white;
+    background-color: #f6ebee;
+}
+#suggestions{
+    width: 18.5em;
+}
+#message,#suggestion{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+#name:hover{
+    border: 1px solid rgb(245, 30, 83);
+    /* background-color: #dcdbdb; */
+}
+#msg:hover{
+    border: 1px solid rgb(245, 30, 83);
+}
+#email:hover{
+    border: 1px solid rgb(245, 30, 83);
+}
+#suggestions:hover{
+    border: 1px solid rgb(245, 30, 83);
+}
+
+
+
+#submit{
+    /* width: */
+    padding: 10px;
+    /* background-color:rgb(232, 76, 102); */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+}
+
+#submit:hover {
+    background-color: #ef2260;
+    border: 1px solid white;
+    color: whitesmoke;
+}
+
+.response-message {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+}
